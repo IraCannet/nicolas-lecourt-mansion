@@ -1,31 +1,52 @@
-.e-shop-menu {
-  max-width: 100%;
-  width: 10000px;
-  margin: -92px 0 0 100px;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Helvetica;
 }
-.square-links {
-  max-width: 2000px;
+
+section {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+div.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100%;
+  background: orange;
+  background-size: cover;
+  background-position: center;
+}
+
+div.column:first-child {
+  background-image: url(../img/nicola_6.jpg);
+}
+
+div.column:last-child {
+  background-image: url(../img/nicola_7.jpg);
+}
+
+a.button {
+  display: block;
+  width: 400px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .logo-image {
   position: fixed;
   top: 0;
-}
-button {
-  background-color: transparent;
-  border-color: black;
-  border-width: 1px;
-  padding: 10px 100px;
-  position: fixed;
-  top: 0;
-}
-.custom {
-  margin: 400px 1000px;
-}
-.ready-to-wear {
-  margin: 400px 300px;
-}
-p {
-  position: fixed;
-  top: 0;
-  margin: 380px 300px;
 }
