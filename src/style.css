@@ -10,19 +10,21 @@ section {
   display: flex;
   width: 100vw;
   height: 100vh;
+  min-width: 2000px;
 }
 
 * {
   box-sizing: border-box;
 }
-
+img {
+  width: 360px;
+}
 div.column {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50vw;
   height: 100%;
-  background: orange;
   background-size: cover;
   background-position: center;
 }
@@ -37,7 +39,7 @@ div.column:last-child {
 
 a.button {
   display: block;
-  width: 400px;
+  width: 160px;
   height: 50px;
   line-height: 50px;
   text-align: center;
